@@ -1,4 +1,4 @@
-class Channel::Driver::Sms::Cloudvox
+class Channel::Driver::Sms::Cloudvox < Channel::Driver::Sms::Base
   NAME = 'sms/cloudvox'.freeze
 
   def fetchable?(_channel)
